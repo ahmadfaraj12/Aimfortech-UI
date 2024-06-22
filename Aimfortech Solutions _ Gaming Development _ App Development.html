@@ -1,0 +1,2059 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://aimfortech.com/ -->
+<html lang="en" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Aimfortech Solutions | Gaming Development | App Development</title>
+
+<link rel="icon" type="image/png" sizes="32x32" href="http://aimfortech.com/favicon.png">
+
+<link href="./Aimfortech Solutions _ Gaming Development _ App Development_files/sfuidisplay.css" rel="stylesheet">
+
+<link rel="stylesheet" href="./Aimfortech Solutions _ Gaming Development _ App Development_files/all.css">
+
+<link rel="stylesheet" href="./Aimfortech Solutions _ Gaming Development _ App Development_files/plugins.min.css">
+
+<link rel="stylesheet" href="./Aimfortech Solutions _ Gaming Development _ App Development_files/app.css">
+
+<link rel="stylesheet" href="./Aimfortech Solutions _ Gaming Development _ App Development_files/custom.css">
+<style type="text/css">body.swal2-shown:not(.swal2-no-backdrop) {
+  overflow-y: hidden; }
+
+body.swal2-toast-shown {
+  overflow-y: auto; }
+  body.swal2-toast-shown.swal2-has-input > .swal2-container > .swal2-toast {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    body.swal2-toast-shown.swal2-has-input > .swal2-container > .swal2-toast .swal2-icon {
+      margin: 0 0 15px; }
+    body.swal2-toast-shown.swal2-has-input > .swal2-container > .swal2-toast .swal2-buttonswrapper {
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      -ms-flex-item-align: stretch;
+          align-self: stretch;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; }
+    body.swal2-toast-shown.swal2-has-input > .swal2-container > .swal2-toast .swal2-loading {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    body.swal2-toast-shown.swal2-has-input > .swal2-container > .swal2-toast .swal2-input {
+      height: 32px;
+      font-size: 14px;
+      margin: 5px auto; }
+  body.swal2-toast-shown > .swal2-container {
+    position: fixed;
+    background-color: transparent; }
+    body.swal2-toast-shown > .swal2-container.swal2-shown {
+      background-color: transparent; }
+    body.swal2-toast-shown > .swal2-container.swal2-top {
+      top: 0;
+      left: 50%;
+      bottom: auto;
+      right: auto;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%); }
+    body.swal2-toast-shown > .swal2-container.swal2-top-right {
+      top: 0;
+      left: auto;
+      bottom: auto;
+      right: 0; }
+    body.swal2-toast-shown > .swal2-container.swal2-top-left {
+      top: 0;
+      left: 0;
+      bottom: auto;
+      right: auto; }
+    body.swal2-toast-shown > .swal2-container.swal2-center-left {
+      top: 50%;
+      left: 0;
+      bottom: auto;
+      right: auto;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%); }
+    body.swal2-toast-shown > .swal2-container.swal2-center {
+      top: 50%;
+      left: 50%;
+      bottom: auto;
+      right: auto;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+    body.swal2-toast-shown > .swal2-container.swal2-center-right {
+      top: 50%;
+      left: auto;
+      bottom: auto;
+      right: 0;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%); }
+    body.swal2-toast-shown > .swal2-container.swal2-bottom-left {
+      top: auto;
+      left: 0;
+      bottom: 0;
+      right: auto; }
+    body.swal2-toast-shown > .swal2-container.swal2-bottom {
+      top: auto;
+      left: 50%;
+      bottom: 0;
+      right: auto;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%); }
+    body.swal2-toast-shown > .swal2-container.swal2-bottom-right {
+      top: auto;
+      left: auto;
+      bottom: 0;
+      right: 0; }
+
+body.swal2-iosfix {
+  position: fixed;
+  left: 0;
+  right: 0; }
+
+body.swal2-no-backdrop > .swal2-shown {
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  background-color: transparent; }
+  body.swal2-no-backdrop > .swal2-shown > .swal2-modal {
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+  body.swal2-no-backdrop > .swal2-shown.swal2-top {
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%); }
+  body.swal2-no-backdrop > .swal2-shown.swal2-top-left {
+    top: 0;
+    left: 0; }
+  body.swal2-no-backdrop > .swal2-shown.swal2-top-right {
+    top: 0;
+    right: 0; }
+  body.swal2-no-backdrop > .swal2-shown.swal2-center {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+  body.swal2-no-backdrop > .swal2-shown.swal2-center-left {
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%); }
+  body.swal2-no-backdrop > .swal2-shown.swal2-center-right {
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%); }
+  body.swal2-no-backdrop > .swal2-shown.swal2-bottom {
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%); }
+  body.swal2-no-backdrop > .swal2-shown.swal2-bottom-left {
+    bottom: 0;
+    left: 0; }
+  body.swal2-no-backdrop > .swal2-shown.swal2-bottom-right {
+    bottom: 0;
+    right: 0; }
+
+.swal2-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  z-index: 1060; }
+  .swal2-container.swal2-top {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .swal2-container.swal2-top-left {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+  .swal2-container.swal2-top-right {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .swal2-container.swal2-center {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .swal2-container.swal2-center-left {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+  .swal2-container.swal2-center-right {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .swal2-container.swal2-bottom {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+  .swal2-container.swal2-bottom-left {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+  .swal2-container.swal2-bottom-right {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .swal2-container.swal2-grow-fullscreen > .swal2-modal {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -ms-flex-item-align: stretch;
+        align-self: stretch;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .swal2-container.swal2-grow-row > .swal2-modal {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .swal2-container.swal2-grow-column {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .swal2-container.swal2-grow-column.swal2-top, .swal2-container.swal2-grow-column.swal2-center, .swal2-container.swal2-grow-column.swal2-bottom {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .swal2-container.swal2-grow-column.swal2-top-left, .swal2-container.swal2-grow-column.swal2-center-left, .swal2-container.swal2-grow-column.swal2-bottom-left {
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
+    .swal2-container.swal2-grow-column.swal2-top-right, .swal2-container.swal2-grow-column.swal2-center-right, .swal2-container.swal2-grow-column.swal2-bottom-right {
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end; }
+    .swal2-container.swal2-grow-column > .swal2-modal {
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      -ms-flex-line-pack: center;
+          align-content: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+  .swal2-container:not(.swal2-top):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-left):not(.swal2-bottom-right) > .swal2-modal {
+    margin: auto; }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .swal2-container .swal2-modal {
+      margin: 0 !important; } }
+  .swal2-container.swal2-fade {
+    -webkit-transition: background-color .1s;
+    transition: background-color .1s; }
+  .swal2-container.swal2-shown {
+    background-color: rgba(0, 0, 0, 0.4); }
+
+.swal2-popup {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: none;
+  position: relative;
+  max-width: 100%; }
+  .swal2-popup.swal2-toast {
+    width: 300px;
+    padding: 0 15px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow-y: hidden;
+    -webkit-box-shadow: 0 0 10px #d9d9d9;
+            box-shadow: 0 0 10px #d9d9d9; }
+    .swal2-popup.swal2-toast .swal2-title {
+      max-width: 300px;
+      font-size: 16px;
+      text-align: left; }
+    .swal2-popup.swal2-toast .swal2-content {
+      font-size: 14px;
+      text-align: left; }
+    .swal2-popup.swal2-toast .swal2-icon {
+      width: 32px;
+      height: 32px;
+      margin: 0 15px 0 0; }
+      .swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring {
+        width: 32px;
+        height: 32px; }
+      .swal2-popup.swal2-toast .swal2-icon.swal2-info, .swal2-popup.swal2-toast .swal2-icon.swal2-warning, .swal2-popup.swal2-toast .swal2-icon.swal2-question {
+        font-size: 26px;
+        line-height: 32px; }
+      .swal2-popup.swal2-toast .swal2-icon.swal2-error [class^='swal2-x-mark-line'] {
+        top: 14px;
+        width: 22px; }
+        .swal2-popup.swal2-toast .swal2-icon.swal2-error [class^='swal2-x-mark-line'][class$='left'] {
+          left: 5px; }
+        .swal2-popup.swal2-toast .swal2-icon.swal2-error [class^='swal2-x-mark-line'][class$='right'] {
+          right: 5px; }
+    .swal2-popup.swal2-toast .swal2-buttonswrapper {
+      margin: 0 0 0 5px; }
+    .swal2-popup.swal2-toast .swal2-styled {
+      margin: 0 0 0 5px;
+      padding: 5px 10px; }
+      .swal2-popup.swal2-toast .swal2-styled:focus {
+        -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 2px rgba(50, 100, 150, 0.4);
+                box-shadow: 0 0 0 1px #fff, 0 0 0 2px rgba(50, 100, 150, 0.4); }
+    .swal2-popup.swal2-toast .swal2-validationerror {
+      width: 100%;
+      margin: 5px -20px; }
+    .swal2-popup.swal2-toast .swal2-success {
+      border-color: #a5dc86; }
+      .swal2-popup.swal2-toast .swal2-success [class^='swal2-success-circular-line'] {
+        border-radius: 50%;
+        position: absolute;
+        width: 32px;
+        height: 64px;
+        -webkit-transform: rotate(45deg);
+                transform: rotate(45deg); }
+        .swal2-popup.swal2-toast .swal2-success [class^='swal2-success-circular-line'][class$='left'] {
+          border-radius: 64px 0 0 64px;
+          top: -4px;
+          left: -15px;
+          -webkit-transform: rotate(-45deg);
+                  transform: rotate(-45deg);
+          -webkit-transform-origin: 32px 32px;
+                  transform-origin: 32px 32px; }
+        .swal2-popup.swal2-toast .swal2-success [class^='swal2-success-circular-line'][class$='right'] {
+          border-radius: 0 64px 64px 0;
+          top: -5px;
+          left: 14px;
+          -webkit-transform-origin: 0 32px;
+                  transform-origin: 0 32px; }
+      .swal2-popup.swal2-toast .swal2-success .swal2-success-ring {
+        width: 32px;
+        height: 32px; }
+      .swal2-popup.swal2-toast .swal2-success .swal2-success-fix {
+        width: 7px;
+        height: 90px;
+        left: 28px;
+        top: 8px; }
+      .swal2-popup.swal2-toast .swal2-success [class^='swal2-success-line'] {
+        height: 5px; }
+        .swal2-popup.swal2-toast .swal2-success [class^='swal2-success-line'][class$='tip'] {
+          width: 12px;
+          left: 3px;
+          top: 18px; }
+        .swal2-popup.swal2-toast .swal2-success [class^='swal2-success-line'][class$='long'] {
+          width: 22px;
+          right: 3px;
+          top: 15px; }
+    .swal2-popup.swal2-toast .swal2-animate-success-line-tip {
+      -webkit-animation: animate-toast-success-tip .75s;
+              animation: animate-toast-success-tip .75s; }
+    .swal2-popup.swal2-toast .swal2-animate-success-line-long {
+      -webkit-animation: animate-toast-success-long .75s;
+              animation: animate-toast-success-long .75s; }
+  .swal2-popup:focus {
+    outline: none; }
+  .swal2-popup.swal2-loading {
+    overflow-y: hidden; }
+  .swal2-popup .swal2-title {
+    color: #595959;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: none;
+    position: relative;
+    margin: 0 0 .4em;
+    padding: 0;
+    display: block;
+    word-wrap: break-word; }
+  .swal2-popup .swal2-buttonswrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 15px; }
+    .swal2-popup .swal2-buttonswrapper:not(.swal2-loading) .swal2-styled[disabled] {
+      opacity: .4;
+      cursor: no-drop; }
+    .swal2-popup .swal2-buttonswrapper.swal2-loading .swal2-styled.swal2-confirm {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      border: 4px solid transparent;
+      border-color: transparent;
+      width: 40px;
+      height: 40px;
+      padding: 0;
+      margin: 7.5px;
+      vertical-align: top;
+      background-color: transparent !important;
+      color: transparent;
+      cursor: default;
+      border-radius: 100%;
+      -webkit-animation: rotate-loading 1.5s linear 0s infinite normal;
+              animation: rotate-loading 1.5s linear 0s infinite normal;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none; }
+    .swal2-popup .swal2-buttonswrapper.swal2-loading .swal2-styled.swal2-cancel {
+      margin-left: 30px;
+      margin-right: 30px; }
+    .swal2-popup .swal2-buttonswrapper.swal2-loading :not(.swal2-styled).swal2-confirm::after {
+      display: inline-block;
+      content: '';
+      margin-left: 5px;
+      vertical-align: -1px;
+      height: 15px;
+      width: 15px;
+      border: 3px solid #999999;
+      -webkit-box-shadow: 1px 1px 1px #fff;
+              box-shadow: 1px 1px 1px #fff;
+      border-right-color: transparent;
+      border-radius: 50%;
+      -webkit-animation: rotate-loading 1.5s linear 0s infinite normal;
+              animation: rotate-loading 1.5s linear 0s infinite normal; }
+  .swal2-popup .swal2-styled {
+    border: 0;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 15px 5px 0;
+    padding: 10px 32px; }
+    .swal2-popup .swal2-styled:focus {
+      outline: none;
+      -webkit-box-shadow: 0 0 0 2px #fff, 0 0 0 4px rgba(50, 100, 150, 0.4);
+              box-shadow: 0 0 0 2px #fff, 0 0 0 4px rgba(50, 100, 150, 0.4); }
+  .swal2-popup .swal2-image {
+    margin: 20px auto;
+    max-width: 100%; }
+  .swal2-popup .swal2-close {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 38px;
+    height: 40px;
+    font-size: 36px;
+    line-height: 40px;
+    font-family: serif;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+    color: #cccccc;
+    -webkit-transition: color .1s ease;
+    transition: color .1s ease; }
+    .swal2-popup .swal2-close:hover {
+      color: #d55; }
+  .swal2-popup > .swal2-input,
+  .swal2-popup > .swal2-file,
+  .swal2-popup > .swal2-textarea,
+  .swal2-popup > .swal2-select,
+  .swal2-popup > .swal2-radio,
+  .swal2-popup > .swal2-checkbox {
+    display: none; }
+  .swal2-popup .swal2-content {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+    position: relative;
+    float: none;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    color: #545454;
+    word-wrap: break-word; }
+  .swal2-popup .swal2-input,
+  .swal2-popup .swal2-file,
+  .swal2-popup .swal2-textarea,
+  .swal2-popup .swal2-select,
+  .swal2-popup .swal2-radio,
+  .swal2-popup .swal2-checkbox {
+    margin: 20px auto; }
+  .swal2-popup .swal2-input,
+  .swal2-popup .swal2-file,
+  .swal2-popup .swal2-textarea {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid #d9d9d9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06);
+    -webkit-transition: border-color .3s, -webkit-box-shadow .3s;
+    transition: border-color .3s, -webkit-box-shadow .3s;
+    transition: border-color .3s, box-shadow .3s;
+    transition: border-color .3s, box-shadow .3s, -webkit-box-shadow .3s; }
+    .swal2-popup .swal2-input.swal2-inputerror,
+    .swal2-popup .swal2-file.swal2-inputerror,
+    .swal2-popup .swal2-textarea.swal2-inputerror {
+      border-color: #f27474 !important;
+      -webkit-box-shadow: 0 0 2px #f27474 !important;
+              box-shadow: 0 0 2px #f27474 !important; }
+    .swal2-popup .swal2-input:focus,
+    .swal2-popup .swal2-file:focus,
+    .swal2-popup .swal2-textarea:focus {
+      outline: none;
+      border: 1px solid #b4dbed;
+      -webkit-box-shadow: 0 0 3px #c4e6f5;
+              box-shadow: 0 0 3px #c4e6f5; }
+    .swal2-popup .swal2-input::-webkit-input-placeholder,
+    .swal2-popup .swal2-file::-webkit-input-placeholder,
+    .swal2-popup .swal2-textarea::-webkit-input-placeholder {
+      color: #cccccc; }
+    .swal2-popup .swal2-input:-ms-input-placeholder,
+    .swal2-popup .swal2-file:-ms-input-placeholder,
+    .swal2-popup .swal2-textarea:-ms-input-placeholder {
+      color: #cccccc; }
+    .swal2-popup .swal2-input::-ms-input-placeholder,
+    .swal2-popup .swal2-file::-ms-input-placeholder,
+    .swal2-popup .swal2-textarea::-ms-input-placeholder {
+      color: #cccccc; }
+    .swal2-popup .swal2-input::placeholder,
+    .swal2-popup .swal2-file::placeholder,
+    .swal2-popup .swal2-textarea::placeholder {
+      color: #cccccc; }
+  .swal2-popup .swal2-range input {
+    float: left;
+    width: 80%; }
+  .swal2-popup .swal2-range output {
+    float: right;
+    width: 20%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center; }
+  .swal2-popup .swal2-range input,
+  .swal2-popup .swal2-range output {
+    height: 43px;
+    line-height: 43px;
+    vertical-align: middle;
+    margin: 20px auto;
+    padding: 0; }
+  .swal2-popup .swal2-input {
+    height: 43px;
+    padding: 0 12px; }
+    .swal2-popup .swal2-input[type='number'] {
+      max-width: 150px; }
+  .swal2-popup .swal2-file {
+    font-size: 20px; }
+  .swal2-popup .swal2-textarea {
+    height: 108px;
+    padding: 12px; }
+  .swal2-popup .swal2-select {
+    color: #545454;
+    font-size: inherit;
+    padding: 5px 10px;
+    min-width: 40%;
+    max-width: 100%; }
+  .swal2-popup .swal2-radio {
+    border: 0; }
+    .swal2-popup .swal2-radio label:not(:first-child) {
+      margin-left: 20px; }
+    .swal2-popup .swal2-radio input,
+    .swal2-popup .swal2-radio span {
+      vertical-align: middle; }
+    .swal2-popup .swal2-radio input {
+      margin: 0 3px 0 0; }
+  .swal2-popup .swal2-checkbox {
+    color: #545454; }
+    .swal2-popup .swal2-checkbox input,
+    .swal2-popup .swal2-checkbox span {
+      vertical-align: middle; }
+  .swal2-popup .swal2-validationerror {
+    background-color: #f0f0f0;
+    margin: 0 -20px;
+    overflow: hidden;
+    padding: 10px;
+    color: gray;
+    font-size: 16px;
+    font-weight: 300;
+    display: none; }
+    .swal2-popup .swal2-validationerror::before {
+      content: '!';
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background-color: #ea7d7d;
+      color: #fff;
+      line-height: 24px;
+      text-align: center;
+      margin-right: 10px; }
+
+@supports (-ms-accelerator: true) {
+  .swal2-range input {
+    width: 100% !important; }
+  .swal2-range output {
+    display: none; } }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .swal2-range input {
+    width: 100% !important; }
+  .swal2-range output {
+    display: none; } }
+
+.swal2-icon {
+  width: 80px;
+  height: 80px;
+  border: 4px solid transparent;
+  border-radius: 50%;
+  margin: 20px auto 30px;
+  padding: 0;
+  position: relative;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  cursor: default;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+  .swal2-icon.swal2-error {
+    border-color: #f27474; }
+    .swal2-icon.swal2-error .swal2-x-mark {
+      position: relative;
+      display: block; }
+    .swal2-icon.swal2-error [class^='swal2-x-mark-line'] {
+      position: absolute;
+      height: 5px;
+      width: 47px;
+      background-color: #f27474;
+      display: block;
+      top: 37px;
+      border-radius: 2px; }
+      .swal2-icon.swal2-error [class^='swal2-x-mark-line'][class$='left'] {
+        -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+        left: 17px; }
+      .swal2-icon.swal2-error [class^='swal2-x-mark-line'][class$='right'] {
+        -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        right: 16px; }
+  .swal2-icon.swal2-warning {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #f8bb86;
+    border-color: #facea8;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center; }
+  .swal2-icon.swal2-info {
+    font-family: 'Open Sans', sans-serif;
+    color: #3fc3ee;
+    border-color: #9de0f6;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center; }
+  .swal2-icon.swal2-question {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #87adbd;
+    border-color: #c9dae1;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center; }
+  .swal2-icon.swal2-success {
+    border-color: #a5dc86; }
+    .swal2-icon.swal2-success [class^='swal2-success-circular-line'] {
+      border-radius: 50%;
+      position: absolute;
+      width: 60px;
+      height: 120px;
+      -webkit-transform: rotate(45deg);
+              transform: rotate(45deg); }
+      .swal2-icon.swal2-success [class^='swal2-success-circular-line'][class$='left'] {
+        border-radius: 120px 0 0 120px;
+        top: -7px;
+        left: -33px;
+        -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        -webkit-transform-origin: 60px 60px;
+                transform-origin: 60px 60px; }
+      .swal2-icon.swal2-success [class^='swal2-success-circular-line'][class$='right'] {
+        border-radius: 0 120px 120px 0;
+        top: -11px;
+        left: 30px;
+        -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        -webkit-transform-origin: 0 60px;
+                transform-origin: 0 60px; }
+    .swal2-icon.swal2-success .swal2-success-ring {
+      width: 80px;
+      height: 80px;
+      border: 4px solid rgba(165, 220, 134, 0.2);
+      border-radius: 50%;
+      -webkit-box-sizing: content-box;
+              box-sizing: content-box;
+      position: absolute;
+      left: -4px;
+      top: -4px;
+      z-index: 2; }
+    .swal2-icon.swal2-success .swal2-success-fix {
+      width: 7px;
+      height: 90px;
+      position: absolute;
+      left: 28px;
+      top: 8px;
+      z-index: 1;
+      -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg); }
+    .swal2-icon.swal2-success [class^='swal2-success-line'] {
+      height: 5px;
+      background-color: #a5dc86;
+      display: block;
+      border-radius: 2px;
+      position: absolute;
+      z-index: 2; }
+      .swal2-icon.swal2-success [class^='swal2-success-line'][class$='tip'] {
+        width: 25px;
+        left: 14px;
+        top: 46px;
+        -webkit-transform: rotate(45deg);
+                transform: rotate(45deg); }
+      .swal2-icon.swal2-success [class^='swal2-success-line'][class$='long'] {
+        width: 47px;
+        right: 8px;
+        top: 38px;
+        -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg); }
+
+.swal2-progresssteps {
+  font-weight: 600;
+  margin: 0 0 20px;
+  padding: 0; }
+  .swal2-progresssteps li {
+    display: inline-block;
+    position: relative; }
+  .swal2-progresssteps .swal2-progresscircle {
+    background: #3085d6;
+    border-radius: 2em;
+    color: #fff;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    width: 2em;
+    z-index: 20; }
+    .swal2-progresssteps .swal2-progresscircle:first-child {
+      margin-left: 0; }
+    .swal2-progresssteps .swal2-progresscircle:last-child {
+      margin-right: 0; }
+    .swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep {
+      background: #3085d6; }
+      .swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep ~ .swal2-progresscircle {
+        background: #add8e6; }
+      .swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep ~ .swal2-progressline {
+        background: #add8e6; }
+  .swal2-progresssteps .swal2-progressline {
+    background: #3085d6;
+    height: .4em;
+    margin: 0 -1px;
+    z-index: 10; }
+
+[class^='swal2'] {
+  -webkit-tap-highlight-color: transparent; }
+
+@-webkit-keyframes showSweetToast {
+  0% {
+    -webkit-transform: translateY(-10px) rotateZ(2deg);
+            transform: translateY(-10px) rotateZ(2deg);
+    opacity: 0; }
+  33% {
+    -webkit-transform: translateY(0) rotateZ(-2deg);
+            transform: translateY(0) rotateZ(-2deg);
+    opacity: .5; }
+  66% {
+    -webkit-transform: translateY(5px) rotateZ(2deg);
+            transform: translateY(5px) rotateZ(2deg);
+    opacity: .7; }
+  100% {
+    -webkit-transform: translateY(0) rotateZ(0);
+            transform: translateY(0) rotateZ(0);
+    opacity: 1; } }
+
+@keyframes showSweetToast {
+  0% {
+    -webkit-transform: translateY(-10px) rotateZ(2deg);
+            transform: translateY(-10px) rotateZ(2deg);
+    opacity: 0; }
+  33% {
+    -webkit-transform: translateY(0) rotateZ(-2deg);
+            transform: translateY(0) rotateZ(-2deg);
+    opacity: .5; }
+  66% {
+    -webkit-transform: translateY(5px) rotateZ(2deg);
+            transform: translateY(5px) rotateZ(2deg);
+    opacity: .7; }
+  100% {
+    -webkit-transform: translateY(0) rotateZ(0);
+            transform: translateY(0) rotateZ(0);
+    opacity: 1; } }
+
+@-webkit-keyframes hideSweetToast {
+  0% {
+    opacity: 1; }
+  33% {
+    opacity: .5; }
+  100% {
+    -webkit-transform: rotateZ(1deg);
+            transform: rotateZ(1deg);
+    opacity: 0; } }
+
+@keyframes hideSweetToast {
+  0% {
+    opacity: 1; }
+  33% {
+    opacity: .5; }
+  100% {
+    -webkit-transform: rotateZ(1deg);
+            transform: rotateZ(1deg);
+    opacity: 0; } }
+
+@-webkit-keyframes showSweetAlert {
+  0% {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7); }
+  45% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05); }
+  80% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes showSweetAlert {
+  0% {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7); }
+  45% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05); }
+  80% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@-webkit-keyframes hideSweetAlert {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    opacity: 0; } }
+
+@keyframes hideSweetAlert {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    opacity: 0; } }
+
+.swal2-show {
+  -webkit-animation: showSweetAlert .3s;
+          animation: showSweetAlert .3s; }
+  .swal2-show.swal2-toast {
+    -webkit-animation: showSweetToast .5s;
+            animation: showSweetToast .5s; }
+  .swal2-show.swal2-noanimation {
+    -webkit-animation: none;
+            animation: none; }
+
+.swal2-hide {
+  -webkit-animation: hideSweetAlert .15s forwards;
+          animation: hideSweetAlert .15s forwards; }
+  .swal2-hide.swal2-toast {
+    -webkit-animation: hideSweetToast .2s forwards;
+            animation: hideSweetToast .2s forwards; }
+  .swal2-hide.swal2-noanimation {
+    -webkit-animation: none;
+            animation: none; }
+
+@-webkit-keyframes animate-success-tip {
+  0% {
+    width: 0;
+    left: 1px;
+    top: 19px; }
+  54% {
+    width: 0;
+    left: 1px;
+    top: 19px; }
+  70% {
+    width: 50px;
+    left: -8px;
+    top: 37px; }
+  84% {
+    width: 17px;
+    left: 21px;
+    top: 48px; }
+  100% {
+    width: 25px;
+    left: 14px;
+    top: 45px; } }
+
+@keyframes animate-success-tip {
+  0% {
+    width: 0;
+    left: 1px;
+    top: 19px; }
+  54% {
+    width: 0;
+    left: 1px;
+    top: 19px; }
+  70% {
+    width: 50px;
+    left: -8px;
+    top: 37px; }
+  84% {
+    width: 17px;
+    left: 21px;
+    top: 48px; }
+  100% {
+    width: 25px;
+    left: 14px;
+    top: 45px; } }
+
+@-webkit-keyframes animate-success-long {
+  0% {
+    width: 0;
+    right: 46px;
+    top: 54px; }
+  65% {
+    width: 0;
+    right: 46px;
+    top: 54px; }
+  84% {
+    width: 55px;
+    right: 0;
+    top: 35px; }
+  100% {
+    width: 47px;
+    right: 8px;
+    top: 38px; } }
+
+@keyframes animate-success-long {
+  0% {
+    width: 0;
+    right: 46px;
+    top: 54px; }
+  65% {
+    width: 0;
+    right: 46px;
+    top: 54px; }
+  84% {
+    width: 55px;
+    right: 0;
+    top: 35px; }
+  100% {
+    width: 47px;
+    right: 8px;
+    top: 38px; } }
+
+@-webkit-keyframes animate-toast-success-tip {
+  0% {
+    width: 0;
+    left: 1px;
+    top: 9px; }
+  54% {
+    width: 0;
+    left: 1px;
+    top: 9px; }
+  70% {
+    width: 24px;
+    left: -4px;
+    top: 17px; }
+  84% {
+    width: 8px;
+    left: 10px;
+    top: 20px; }
+  100% {
+    width: 12px;
+    left: 3px;
+    top: 18px; } }
+
+@keyframes animate-toast-success-tip {
+  0% {
+    width: 0;
+    left: 1px;
+    top: 9px; }
+  54% {
+    width: 0;
+    left: 1px;
+    top: 9px; }
+  70% {
+    width: 24px;
+    left: -4px;
+    top: 17px; }
+  84% {
+    width: 8px;
+    left: 10px;
+    top: 20px; }
+  100% {
+    width: 12px;
+    left: 3px;
+    top: 18px; } }
+
+@-webkit-keyframes animate-toast-success-long {
+  0% {
+    width: 0;
+    right: 22px;
+    top: 26px; }
+  65% {
+    width: 0;
+    right: 22px;
+    top: 26px; }
+  84% {
+    width: 26px;
+    right: 0;
+    top: 15px; }
+  100% {
+    width: 22px;
+    right: 3px;
+    top: 15px; } }
+
+@keyframes animate-toast-success-long {
+  0% {
+    width: 0;
+    right: 22px;
+    top: 26px; }
+  65% {
+    width: 0;
+    right: 22px;
+    top: 26px; }
+  84% {
+    width: 26px;
+    right: 0;
+    top: 15px; }
+  100% {
+    width: 22px;
+    right: 3px;
+    top: 15px; } }
+
+@-webkit-keyframes rotatePlaceholder {
+  0% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+  5% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+  12% {
+    -webkit-transform: rotate(-405deg);
+            transform: rotate(-405deg); }
+  100% {
+    -webkit-transform: rotate(-405deg);
+            transform: rotate(-405deg); } }
+
+@keyframes rotatePlaceholder {
+  0% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+  5% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+  12% {
+    -webkit-transform: rotate(-405deg);
+            transform: rotate(-405deg); }
+  100% {
+    -webkit-transform: rotate(-405deg);
+            transform: rotate(-405deg); } }
+
+.swal2-animate-success-line-tip {
+  -webkit-animation: animate-success-tip .75s;
+          animation: animate-success-tip .75s; }
+
+.swal2-animate-success-line-long {
+  -webkit-animation: animate-success-long .75s;
+          animation: animate-success-long .75s; }
+
+.swal2-success.swal2-animate-success-icon .swal2-success-circular-line-right {
+  -webkit-animation: rotatePlaceholder 4.25s ease-in;
+          animation: rotatePlaceholder 4.25s ease-in; }
+
+@-webkit-keyframes animate-error-icon {
+  0% {
+    -webkit-transform: rotateX(100deg);
+            transform: rotateX(100deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    opacity: 1; } }
+
+@keyframes animate-error-icon {
+  0% {
+    -webkit-transform: rotateX(100deg);
+            transform: rotateX(100deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    opacity: 1; } }
+
+.swal2-animate-error-icon {
+  -webkit-animation: animate-error-icon .5s;
+          animation: animate-error-icon .5s; }
+
+@-webkit-keyframes animate-x-mark {
+  0% {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+    margin-top: 26px;
+    opacity: 0; }
+  50% {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+    margin-top: 26px;
+    opacity: 0; }
+  80% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+    margin-top: -6px; }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    margin-top: 0;
+    opacity: 1; } }
+
+@keyframes animate-x-mark {
+  0% {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+    margin-top: 26px;
+    opacity: 0; }
+  50% {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+    margin-top: 26px;
+    opacity: 0; }
+  80% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+    margin-top: -6px; }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    margin-top: 0;
+    opacity: 1; } }
+
+.swal2-animate-x-mark {
+  -webkit-animation: animate-x-mark .5s;
+          animation: animate-x-mark .5s; }
+
+@-webkit-keyframes rotate-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes rotate-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+</style></head>
+<body class="theme-royal-blue loaded" data-spy="scroll" data-target="#navbar-nav" data-animation="true" data-appearance="light" cz-shortcut-listen="true" style="">
+
+
+
+<main class="main">
+
+<header class="navbar navbar-sticky sticky-bg-color--primary navbar-expand-lg navbar-dark navbar-sticky--moved-up navbar-sticky--transitioned">
+<div class="container position-relative">
+<a class="navbar-brand" href="http://aimfortech.com/index.html">
+<img class="navbar-brand__regular" src="./Aimfortech Solutions _ Gaming Development _ App Development_files/brand-logo-white.png" alt="brand-logo">
+<img class="navbar-brand__sticky" src="./Aimfortech Solutions _ Gaming Development _ App Development_files/brand-logo-white.png" alt="sticky brand-logo">
+</a>
+
+<button class="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="navbar-inner ml-lg-auto pl-lg-2 pl-xl-6">
+
+<button class="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<nav>
+<ul class="navbar-nav" id="navbar-nav">
+<li class="nav-item">
+<a class="nav-link " href="http://aimfortech.com/#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link " href="http://aimfortech.com/#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="http://aimfortech.com/#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Careers</a>
+    </li>
+</ul></nav>
+</div>
+ <div class="mr-5 mr-lg-0 ml-lg-2">
+<a href="https://api.whatsapp.com/send?phone=919171570073" class="btn btn-size--sm btn-border btn-hover--splash color--white"><span class="btn__text font-w--500">Contact Us</span></a>
+</div>
+
+</div>
+
+</header>
+
+
+<section class="hero hero--full hero--v9 bg-color--primary d-flex align-items-center hidden">
+<div class="canvas-lines opacity--10">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+<div class="container">
+<div class="row flex-column-reverse flex-lg-row">
+<div class="col-12 col-md-10 col-lg-7 mx-auto mx-lg-0 text-center text-lg-left z-index2">
+<div class="hero-content reveal" data-sr-id="1" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1s ease-in-out 0s, opacity 1s ease-in-out 0s; transition: transform 1s ease-in-out 0s, opacity 1s ease-in-out 0s; ">
+<h1 class="hero__title mb-2 mb-lg-3">We Are Aimfortech Solutions</h1>
+<p class="hero__description font-size--20 mb-3 mb-lg-5 pr-xl-10">To achieve new heights of success, get end-to-end bespoke solutions created by industry professionals employing cutting-edge technologies.</p>
+
+<a href="https://api.whatsapp.com/send?phone=919171570073" class="btn btn-bg--cta--3 btn-hover--3d">
+<span class="btn__text"> <i class="fab fa-github pr-1"></i>Get in touch</span>
+</a>
+
+</div>
+
+<div class="features features--v2 color--white d-flex justify-content-center justify-content-lg-start flex-wrap remove-space--x mt-4 mt-lg-8 reveal" data-sr-id="2" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1s ease-in-out 0s, opacity 1s ease-in-out 0s; transition: transform 1s ease-in-out 0s, opacity 1s ease-in-out 0s; ">
+<div class="single-item m-1 m-sm-4">
+<span class="h2-font st-current">
+<i class="icon icon-key"></i>
+</span>
+<p class="h4-font">Access</p>
+</div>
+
+<div class="single-item m-1 m-sm-4">
+<span class="h2-font">
+<i class="icon icon-metrics"></i>
+</span>
+<p class="h4-font">Speed</p>
+</div>
+
+<div class="single-item m-1 m-sm-4">
+<span class="h2-font">
+<i class="icon icon-handshake"></i>
+</span>
+<p class="h4-font">Certainty</p>
+</div>
+
+<div class="single-item m-1 m-sm-4">
+<span class="h2-font">
+<i class="icon icon-money-bag"></i>
+</span>
+<p class="h4-font">Cost</p>
+</div>
+
+</div>
+</div>
+
+<div class="col-12 col-lg-6 mt-6 mt-lg-0 mb-2 mb-lg-0 pl-lg-4 pos-abs-lg-vertical-center pos-right hero__image">
+<picture><img src="./Aimfortech Solutions _ Gaming Development _ App Development_files/hero-92.png" alt="media-thumb" class="img-fluid"></picture>
+</div>
+
+</div>
+
+</div>
+</section>
+
+ 
+<section class="bg-color--primary features features--v1 pt-10 pb-5 hidden" id="features">
+<div class="canvas-lines opacity--10">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-10 col-lg-5">
+<div class="section-title mb-5 mb-lg-7 text-center text-md-left reveal" data-sr-id="3" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1s ease-in-out 0s, opacity 1s ease-in-out 0s; transition: transform 1s ease-in-out 0s, opacity 1s ease-in-out 0s; ">
+<h2 class="h3-font">Our Key Features
+</h2>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-12">
+<div class="masks">
+<div class="mask mask--top z-index2 jsElement bg-color--primary" style="height: 50%;"></div>
+<div class="mask mask--bottom z-index3 bg-color--primary-light--1 jsElement" style="height: 72.7%;"></div>
+<div class="mask mask--full bg-color--primary-light--1 jsElement" style="height: 72.7%;"></div>
+
+</div>
+
+<div class="carosuel-slider--v3 card--v3 z-index1 slick-initialized slick-slider"><button type="button" class="carosuel-cursor carosuel-arrow--prev slick-arrow" style=""><i class="icon icon-arrow-left"></i></button>
+
+
+
+
+
+
+
+
+
+
+<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 4810px; transform: translate3d(-1110px, 0px, 0px);"><div class="slide slick-slide slick-cloned" style="width: 340px;" tabindex="-1" data-slick-index="-3" aria-hidden="true">
+<div class="card bg-color--primary rounded--05 box-shadow--6 px-3 pt-5 pb-3" style="min-height: 581.5px;">
+<div class="card-body">
+<span class="font-size--60 mb-2 color--white">
+<i class="icon icon-meeting"></i>
+</span>
+<h3 class="font-size--30 font-w--700 mb-2"><a href="http://aimfortech.com/#" class="color--white" tabindex="-1">Dedicated Development <br> Team</a></h3>
+<p class="mb-3 font-size--20 opacity--80">Our talented staff makes the most of projects to achieve the greatest results. The crew puts out 100% effort and does not look back until the task is completed.</p>
+</div>
+<div class="card-footer">
+<a href="http://aimfortech.com/#" class="font-size--26 color--white" tabindex="-1"><i class="icon icon-arrow-right"></i></a>
+</div>
+</div>
+</div><div class="slide slick-slide slick-cloned" style="width: 340px;" tabindex="-1" data-slick-index="-2" aria-hidden="true">
+<div class="card bg-color--primary rounded--05 box-shadow--6 px-3 pt-5 pb-3" style="min-height: 581.5px;">
+<div class="card-body">
+<span class="font-size--60 mb-2 color--white">
+<i class="icon icon-app-store"></i>
+</span>
+<h3 class="font-size--30 font-w--700 mb-2"><a href="http://aimfortech.com/#" class="color--white" tabindex="-1"> Data <br> Protection </a></h3>
+<p class="mb-3 font-size--20 opacity--80">By signing an NDA, our company ensures the utmost safety of all your private data. We deliver best-rated products to maintain confidentiality.</p>
+</div>
+<div class="card-footer">
+<a href="http://aimfortech.com/#" class="font-size--26 color--white" tabindex="-1"><i class="icon icon-arrow-right"></i></a>
+</div>
+</div>
+</div><div class="slide slick-slide slick-cloned" style="width: 340px;" tabindex="-1" data-slick-index="-1" aria-hidden="true">
+<div class="card bg-color--primary rounded--05 box-shadow--6 px-3 pt-5 pb-3" style="min-height: 581.5px;">
+<div class="card-body">
+<span class="font-size--60 mb-2 color--white">
+<i class="icon icon-handshake"></i>
+</span>
+<h3 class="font-size--30 font-w--700 mb-2"><a href="http://aimfortech.com/#" class="color--white" tabindex="-1">Excellent <br> Support </a></h3>
+<p class="mb-3 font-size--20 opacity--80">Our skilled team leverage projects to provide best results.The team dedicates their every effort and does not look back until it's accomplished.</p>
+</div>
+<div class="card-footer">
+<a href="http://aimfortech.com/#" class="font-size--26 color--white" tabindex="-1"><i class="icon icon-arrow-right"></i></a>
+</div>
+</div>
+</div><div class="slide slick-slide slick-current slick-active" style="width: 340px;" tabindex="0" data-slick-index="0" aria-hidden="false">
+<div class="card bg-color--primary rounded--05 box-shadow--6 px-3 pt-5 pb-3" style="min-height: 581.5px;">
+<div class="card-body">
+<span class="font-size--60 mb-2 color--white">
+<i class="icon icon-contacts"></i>
+</span>
+<h3 class="font-size--30 font-w--700 mb-2"><a href="http://aimfortech.com/#" class="color--white" tabindex="0">Quality <br> Deliverance</a></h3>
+<p class="mb-3 font-size--20 opacity--80">We believe in providing high-quality products to our clients by meeting all of their project requirements at the most competitive pricing in the industry.</p>
+</div>
+<div class="card-footer">
+<a href="http://aimfortech.com/#" class="font-size--26 color--white" tabindex="0"><i class="icon icon-arrow-right"></i></a>
+</div>
+</div>
+</div><div class="slide active slick-slide slick-active" style="width: 340px;" tabindex="0" data-slick-index="1" aria-hidden="false">
+<div class="card bg-color--primary rounded--05 box-shadow--6 px-3 pt-5 pb-3" style="min-height: 581.5px;">
+<div class="card-body">
+<span class="font-size--60 mb-2 color--white">
+<i class="icon icon-tool-blur"></i>
+</span>
+<h3 class="font-size--30 font-w--700 mb-2"><a href="http://aimfortech.com/#" class="color--white" tabindex="0">Client Centric<br>  Development</a></h3>
+<p class="mb-3 font-size--20 opacity--80">We tailor solutions to the client's demands on the web, mobile, and blockchain to help them develop their enterprises.</p>
+ </div>
+<div class="card-footer">
+<a href="http://aimfortech.com/#" class="font-size--26 color--white" tabindex="0"><i class="icon icon-arrow-right"></i></a>
+</div>
+</div>
+</div><div class="slide slick-slide slick-active" style="width: 340px;" tabindex="0" data-slick-index="2" aria-hidden="false">
+<div class="card bg-color--primary rounded--05 box-shadow--6 px-3 pt-5 pb-3" style="min-height: 581.5px;">
+<div class="card-body">
+<span class="font-size--60 mb-2 color--white">
+<i class="icon icon-meeting"></i>
+</span>
+<h3 class="font-size--30 font-w--700 mb-2"><a href="http://aimfortech.com/#" class="color--white" tabindex="0">Dedicated Development <br> Team</a></h3>
+<p class="mb-3 font-size--20 opacity--80">Our talented staff makes the most of projects to achieve the greatest results. The crew puts out 100% effort and does not look back until the task is completed.</p>
+</div>
+<div class="card-footer">
+<a href="http://aimfortech.com/#" class="font-size--26 color--white" tabindex="0"><i class="icon icon-arrow-right"></i></a>
+</div>
+</div>
+</div><div class="slide slick-slide" style="width: 340px;" tabindex="-1" data-slick-index="3" aria-hidden="true">
+<div class="card bg-color--primary rounded--05 box-shadow--6 px-3 pt-5 pb-3" style="min-height: 581.5px;">
+<div class="card-body">
+<span class="font-size--60 mb-2 color--white">
+<i class="icon icon-app-store"></i>
+</span>
+<h3 class="font-size--30 font-w--700 mb-2"><a href="http://aimfortech.com/#" class="color--white" tabindex="-1"> Data <br> Protection </a></h3>
+<p class="mb-3 font-size--20 opacity--80">By signing an NDA, our company ensures the utmost safety of all your private data. We deliver best-rated products to maintain confidentiality.</p>
+</div>
+<div class="card-footer">
+<a href="http://aimfortech.com/#" class="font-size--26 color--white" tabindex="-1"><i class="icon icon-arrow-right"></i></a>
+</div>
+</div>
+</div><div class="slide slick-slide" style="width: 340px;" tabindex="-1" data-slick-index="4" aria-hidden="true">
+<div class="card bg-color--primary rounded--05 box-shadow--6 px-3 pt-5 pb-3" style="min-height: 581.5px;">
+<div class="card-body">
+<span class="font-size--60 mb-2 color--white">
+<i class="icon icon-handshake"></i>
+</span>
+<h3 class="font-size--30 font-w--700 mb-2"><a href="http://aimfortech.com/#" class="color--white" tabindex="-1">Excellent <br> Support </a></h3>
+<p class="mb-3 font-size--20 opacity--80">Our skilled team leverage projects to provide best results.The team dedicates their every effort and does not look back until it's accomplished.</p>
+</div>
+<div class="card-footer">
+<a href="http://aimfortech.com/#" class="font-size--26 color--white" tabindex="-1"><i class="icon icon-arrow-right"></i></a>
+</div>
+</div>
+</div><div class="slide slick-slide slick-cloned" style="width: 340px;" tabindex="-1" data-slick-index="5" aria-hidden="true">
+<div class="card bg-color--primary rounded--05 box-shadow--6 px-3 pt-5 pb-3" style="min-height: 581.5px;">
+<div class="card-body">
+<span class="font-size--60 mb-2 color--white">
+<i class="icon icon-contacts"></i>
+</span>
+<h3 class="font-size--30 font-w--700 mb-2"><a href="http://aimfortech.com/#" class="color--white" tabindex="-1">Quality <br> Deliverance</a></h3>
+<p class="mb-3 font-size--20 opacity--80">We believe in providing high-quality products to our clients by meeting all of their project requirements at the most competitive pricing in the industry.</p>
+</div>
+<div class="card-footer">
+<a href="http://aimfortech.com/#" class="font-size--26 color--white" tabindex="-1"><i class="icon icon-arrow-right"></i></a>
+</div>
+</div>
+</div><div class="slide active slick-slide slick-cloned" style="width: 340px;" tabindex="-1" data-slick-index="6" aria-hidden="true">
+<div class="card bg-color--primary rounded--05 box-shadow--6 px-3 pt-5 pb-3" style="min-height: 581.5px;">
+<div class="card-body">
+<span class="font-size--60 mb-2 color--white">
+<i class="icon icon-tool-blur"></i>
+</span>
+<h3 class="font-size--30 font-w--700 mb-2"><a href="http://aimfortech.com/#" class="color--white" tabindex="-1">Client Centric<br>  Development</a></h3>
+<p class="mb-3 font-size--20 opacity--80">We tailor solutions to the client's demands on the web, mobile, and blockchain to help them develop their enterprises.</p>
+ </div>
+<div class="card-footer">
+<a href="http://aimfortech.com/#" class="font-size--26 color--white" tabindex="-1"><i class="icon icon-arrow-right"></i></a>
+</div>
+</div>
+</div><div class="slide slick-slide slick-cloned" style="width: 340px;" tabindex="-1" data-slick-index="7" aria-hidden="true">
+<div class="card bg-color--primary rounded--05 box-shadow--6 px-3 pt-5 pb-3" style="min-height: 581.5px;">
+<div class="card-body">
+<span class="font-size--60 mb-2 color--white">
+<i class="icon icon-meeting"></i>
+</span>
+<h3 class="font-size--30 font-w--700 mb-2"><a href="http://aimfortech.com/#" class="color--white" tabindex="-1">Dedicated Development <br> Team</a></h3>
+<p class="mb-3 font-size--20 opacity--80">Our talented staff makes the most of projects to achieve the greatest results. The crew puts out 100% effort and does not look back until the task is completed.</p>
+</div>
+<div class="card-footer">
+<a href="http://aimfortech.com/#" class="font-size--26 color--white" tabindex="-1"><i class="icon icon-arrow-right"></i></a>
+</div>
+</div>
+</div><div class="slide slick-slide slick-cloned" style="width: 340px;" tabindex="-1" data-slick-index="8" aria-hidden="true">
+<div class="card bg-color--primary rounded--05 box-shadow--6 px-3 pt-5 pb-3" style="min-height: 581.5px;">
+<div class="card-body">
+<span class="font-size--60 mb-2 color--white">
+<i class="icon icon-app-store"></i>
+</span>
+<h3 class="font-size--30 font-w--700 mb-2"><a href="http://aimfortech.com/#" class="color--white" tabindex="-1"> Data <br> Protection </a></h3>
+<p class="mb-3 font-size--20 opacity--80">By signing an NDA, our company ensures the utmost safety of all your private data. We deliver best-rated products to maintain confidentiality.</p>
+</div>
+<div class="card-footer">
+<a href="http://aimfortech.com/#" class="font-size--26 color--white" tabindex="-1"><i class="icon icon-arrow-right"></i></a>
+</div>
+</div>
+</div><div class="slide slick-slide slick-cloned" style="width: 340px;" tabindex="-1" data-slick-index="9" aria-hidden="true">
+<div class="card bg-color--primary rounded--05 box-shadow--6 px-3 pt-5 pb-3" style="min-height: 581.5px;">
+<div class="card-body">
+<span class="font-size--60 mb-2 color--white">
+<i class="icon icon-handshake"></i>
+</span>
+<h3 class="font-size--30 font-w--700 mb-2"><a href="http://aimfortech.com/#" class="color--white" tabindex="-1">Excellent <br> Support </a></h3>
+<p class="mb-3 font-size--20 opacity--80">Our skilled team leverage projects to provide best results.The team dedicates their every effort and does not look back until it's accomplished.</p>
+</div>
+<div class="card-footer">
+<a href="http://aimfortech.com/#" class="font-size--26 color--white" tabindex="-1"><i class="icon icon-arrow-right"></i></a>
+</div>
+</div>
+</div></div></div><button type="button" class="carosuel-cursor carosuel-arrow--next slick-arrow" style=""><i class="icon icon-arrow-right"></i></button></div>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- <section class="space--bottom pt-5 pt-lg-9 bg-color--primary-light--1 testimonials testimonials--v2">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-10 mx-auto reveal">
+<div class="testimonials__pattern background-holder background--auto background--top--left opacity--40">
+<img src="img/layout/vertical-pattern-1.png" alt="wave" class="background-image-holder">
+</div>
+
+<div class="carosuel-slider--v7 testimonial bg-white border--around rounded--10">
+<div class="slide">
+<div class="d-md-flex p-3 py-lg-5 pl-lg-4 pr-lg-10">
+<span class="testimonial__quote color--coral mr-3"><i class="icon icon-quote"></i></span>
+<div>
+<blockquote class="blockquote mb-3">aimfortech is designed to pioneer the plasma architecture, the leading scalability network is a stakeholder and infinitelyis a stakeholder and infinitelyis a stakeholder and infinitely scalable blockchain for plasma.
+Quisque ac dolor nec nisl pell entesque ullan mor. Vestibu um sed per ultrices mi etamor. Amcorper uique ac do lo nec nis im pites mane.</blockquote>
+<div class="d-flex align-items-center">
+<span class="mr-2"><img src="img/avatar-1.png" alt="avatar"></span>
+<div class="d-flex flex-column">
+<span class="client-name font-size--17 font-w--600">Loretta Paul</span>
+<span>Themeforest</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="slide">
+<div class="d-md-flex p-3 py-lg-5 pl-lg-4 pr-lg-10">
+<span class="testimonial__quote color--coral mr-3"><i class="icon icon-quote"></i></span>
+<div>
+<blockquote class="blockquote mb-3">aimfortech is designed to pioneer the plasma architecture, the leading scalability network is a stakeholder and infinitely scalable blockchain for plasma. Quisque ac dolor nec nisl pell entesque ullan mor. Vestibu
+um sed per ultrices mi etamor. Amcorper uique ac do lo nec nis im pites mane.</blockquote>
+<div class="d-flex align-items-center">
+<span class="mr-2"><img src="img/avatar-2.png" alt="avatar"></span>
+<div class="d-flex flex-column">
+<span class="client-name font-size--17 font-w--600">Jimmy Griffin</span>
+<span>Themeforest</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="slide">
+<div class="d-md-flex p-3 py-lg-5 pl-lg-4 pr-lg-10">
+<span class="testimonial__quote color--coral mr-3"><i class="icon icon-quote"></i></span>
+<div>
+<blockquote class="blockquote mb-3">aimfortech is designed to pioneer the plasma architecture, the leading scalability network is a stakeholder and infinitely scalable blockchain for plasma. Quisque ac dolor nec nisl pell entesque ullan mor. Vestibu
+um sed per ultrices mi etamor. Amcorper uique ac do lo nec nis im pites mane.</blockquote>
+<div class="d-flex align-items-center">
+<span class="mr-2"><img src="img/avatar-3.png" alt="avatar"></span>
+<div class="d-flex flex-column">
+<span class="client-name font-size--17 font-w--600">Alan Rogers</span>
+<span>Themeforest</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</section> -->
+
+
+<section class="space--bottom pt-7 pt-md-3 pt-lg-0 bg-color--primary-light--1 intro-video--v1">
+<div class="svg-shape ">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 500" class="svg replaced-svg">
+  <defs>
+    <lineargradient id="wave-5-a" x1="4.278%" x2="92.121%" y1="47.586%" y2="49.051%">
+      <stop offset="0%" stop-color="#F5F9FF"></stop>
+      <stop offset="100%" stop-color="#E9F2FE"></stop>
+    </lineargradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(0 .149)">
+    <path fill="url(#wave-5-a)" d="M9.29903121e-13,85.4004289 C115.57433,195.087892 257.694829,204.442066 426.361495,113.462952 C679.361495,-23.0057197 822.029329,158.145417 1099.3615,216.695995 C1376.69366,275.246573 1694.26165,-111.299254 1920,32.1480123 C1931.69539,39.5799441 1931.69539,199.771721 1920,512.723342 C640,515.890417 0,515.890456 0,512.723461 C0,507.793347 3.09967707e-13,365.352336 9.29903121e-13,85.4004289 Z"></path>
+    <path fill="#FFF" d="M2.27373675e-13,153.302353 C126.240997,295.927489 257.694829,337.982714 394.361495,279.468026 C599.361495,191.695995 778.791744,132.708721 1099.8615,411.31344 C1413.62469,683.577971 1602.59634,135.109993 1920,250.848468 C1924.92756,252.645259 1924.92756,338.467402 1920,508.314897 C640,514.192824 3.02457976e-13,514.192824 3.02457976e-13,508.314897 C3.02457976e-13,499.179604 2.77429876e-13,380.842089 2.27373675e-13,153.302353 Z"></path>
+  </g>
+</svg>
+</div>
+<div class="container">
+<div class="row position-relative reveal" data-sr-id="4" style="; visibility: visible;  -webkit-transform: translateY(20px) scale(1); opacity: 0.2;transform: translateY(20px) scale(1); opacity: 0.2;">
+<div class="about-video__pattern background-holder background--top--right opacity--50" style="background-image: url(&quot;img/layout/vertical-pattern-1.svg&quot;); background-repeat: no-repeat;">
+<img src="./Aimfortech Solutions _ Gaming Development _ App Development_files/vertical-pattern-1.svg" alt="dots-pattern" class="background-image-holder" style="display: none;">
+</div>
+
+<div class="col-12 col-lg-9">
+<div class="bg-color--primary text-center text-lg-left p-5 p-lg-8 box-shadow--2 position-relative z-index1">
+<div class="background-holder background--cover background--left z-index-1" style="background-image: url(&quot;img/layout/video-bg-1.png&quot;); background-repeat: no-repeat;">
+<img src="./Aimfortech Solutions _ Gaming Development _ App Development_files/video-bg-1.png" alt="wave" class="background-image-holder" style="display: none;">
+</div>
+
+<h2>Get<br> To Know<br>More of Us</h2>
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 ml-auto about-video-media">
+<picture><img src="./Aimfortech Solutions _ Gaming Development _ App Development_files/media-thumb-4.png" alt="media-thumb" class="img-fluid box-shadow--2"></picture>
+<a class="lightbox pos-abs-center vbox-item" data-autoplay="true" data-vbtype="video" href="https://youtu.be/dUlA2YCU-sc">
+<span class="btn btn-media btn-media-size--lg btn-bg--cta--3 rounded--full box-shadow--3"><i class="icon icon-triangle-right"></i></span>
+</a>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="space" id="why">
+<div class="container">
+<div class="row space--bottom flex-column-reverse flex-lg-row align-items-center text-center">
+<div class="col-12 col-md-10 col-lg-6 text-lg-left reveal" data-sr-id="5" style="; visibility: visible;  -webkit-transform: translateY(20px) scale(1); opacity: 0.2;transform: translateY(20px) scale(1); opacity: 0.2;">
+<h2 class="mb-3">We create digital services and interactive experience</h2>
+<p class="mb-5">Welcome to the world of IT services constellations that flash brightly while remaining inside your budget. We offer IT consulting services to help you build a solid basis for your digital setup. The following is a list of the services we provide.</p>
+<a href="https://api.whatsapp.com/send?phone=919171570073" class="btn btn-bg--cta--3">
+<span class="btn__text d-flex align-items-center"> Get in touch <i class="icon icon-arrow-right font-size--20"></i>
+</span>
+</a>
+</div>
+
+<div class="col-12 col-lg-6 mb-3 mb-lg-0">
+<picture>
+<img class="img-fluid" src="./Aimfortech Solutions _ Gaming Development _ App Development_files/illustration-09.png" alt="illustration">
+</picture>
+</div>
+
+</div>
+
+<div class="row flex-column-reverse flex-lg-row-reverse align-items-center text-center">
+<div class="col-12 col-md-10 col-lg-6 text-lg-left reveal" data-sr-id="6" style="; visibility: visible;  -webkit-transform: translateY(20px) scale(1); opacity: 0.2;transform: translateY(20px) scale(1); opacity: 0.2;">
+<h2 class="mb-3">Modernizing Mobile Platforms</h2>
+<p class="mb-5">Custom mobile apps. User experience &amp; design.
+  Engagement &amp; intelligence. Native &amp; cross-platform</p>
+<a href="http://aimfortech.com/#" class="btn btn-bg--cta--3">
+<span class="btn__text d-flex align-items-center"> Start your project <i class="icon icon-arrow-right font-size--20"></i>
+</span>
+</a>
+</div>
+
+<div class="col-12 col-lg-6 mb-3 mb-lg-0">
+<picture>
+<img class="img-fluid" src="./Aimfortech Solutions _ Gaming Development _ App Development_files/illustration-10.png" alt="illustration">
+</picture>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<section class="space--bottom bg-color--primary hidden" id="developer">
+<div class="svg-shape--top w-100 z-index1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 407" class="svg w-100 replaced-svg">
+  <path fill="#FFF" fill-rule="evenodd" d="M0.874393486,0.508626345 L1920.87439,0.508626345 L1920.87439,406.508626 C1600.87439,271.175293 1280.87439,203.508626 960.874393,203.508626 C640.874393,203.508626 320.874393,271.175293 0.874393486,406.508626" transform="matrix(-1 0 0 1 1920.749 0)"></path>
+</svg>
+</div>
+
+<div class="svg-shape">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1717" class="svg replaced-svg">
+  <defs>
+    <path id="wave-7-a" d="M0,-1.13686838e-13 C531.916262,62.1069999 890.207727,267.759397 1074.87439,616.95719 C1259.54106,966.154983 1541.20773,1125.14851 1919.87439,1093.93778 L1919.87439,1716 L0,1716 L0,-1.13686838e-13 Z"></path>
+    <lineargradient id="wave-7-b" x1="99.305%" x2="99.305%" y1="3.216%" y2="100%">
+      <stop offset="0%" stop-color="#6987FF" stop-opacity="0"></stop>
+      <stop offset="100%" stop-color="#6987FF"></stop>
+    </lineargradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-.126 .509)">
+    <mask id="wave-7-c" fill="#fff">
+      <use xlink:href="#wave-7-a"></use>
+    </mask>
+    <use fill="#6987FF" opacity=".147" xlink:href="#wave-7-a"></use>
+    <path fill="url(#wave-7-b)" d="M1919.87439,1716 L1.13686838e-13,1716 C1020.66327,1623.64495 1663.28807,1295.97829 1927.87439,733 C1927.87439,733 1925.20773,1060.66667 1919.87439,1716 Z" mask="url(#wave-7-c)" opacity=".147"></path>
+  </g>
+</svg>
+</div>
+
+<div class="container position-relative z-index2">
+<div class="row mb-3 mb-lg-8">
+<div class="col-12">
+<picture>
+<img class="img-fluid" src="./Aimfortech Solutions _ Gaming Development _ App Development_files/macbook-air.png" alt="device">
+</picture>
+</div>
+</div>
+
+<div class="row">
+<div class="col-12 col-lg-6 mb-3 mx-auto text-center reveal" data-sr-id="7" style="; visibility: visible;  -webkit-transform: translateY(20px) scale(1); opacity: 0.2;transform: translateY(20px) scale(1); opacity: 0.2;">
+<div class="section-title">
+<h2 class="mb-2">Our Technical Stack</h2>
+<p>We have honed up with major technology platforms in the marketplace to deliver fully responsive and scalable web and mobile apps.</p>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-12 text-center">
+<div class="border--bottom pb-5 reveal" data-sr-id="8" style="; visibility: visible;  -webkit-transform: translateY(20px) scale(1); opacity: 0.2;transform: translateY(20px) scale(1); opacity: 0.2;">
+<span class="m-2 m-lg-4"><img src="./Aimfortech Solutions _ Gaming Development _ App Development_files/react-logo.png" alt="logo"></span>
+<span class="m-2 m-lg-4"><img src="./Aimfortech Solutions _ Gaming Development _ App Development_files/ruby-logo.png" alt="logo"></span>
+<span class="m-2 m-lg-4"><img src="./Aimfortech Solutions _ Gaming Development _ App Development_files/js-logo.png" alt="logo"></span>
+<span class="m-2 m-lg-4"><img src="./Aimfortech Solutions _ Gaming Development _ App Development_files/paython-logo.png" alt="logo"></span>
+<span class="m-2 m-lg-4"><img src="./Aimfortech Solutions _ Gaming Development _ App Development_files/unity-logo.png" alt="logo"></span>
+<span class="m-2 m-lg-4"><img src="./Aimfortech Solutions _ Gaming Development _ App Development_files/github-logo.png" alt="logo"></span>
+</div>
+ </div>
+</div>
+
+<div class="row flex-column-reverse flex-lg-row align-items-center text-center mb-lg-2 mt-6 mt-lg-9">
+<div class="col-12 col-md-10 col-lg-5 text-lg-left reveal" data-sr-id="9" style="; visibility: visible;  -webkit-transform: translateY(20px) scale(1); opacity: 0.2;transform: translateY(20px) scale(1); opacity: 0.2;">
+<h2 class="mb-3">what are you looking up-to?</h2>
+<p class="mb-5">Mobile app development is, without a doubt, a requirement for all businesses nowadays. As a mobile app development business, we are capable of producing high-quality standard mobile apps in every category. We've worked with a wide range of companies, organisations, start-ups, and people to develop powerful apps based on great ideas.</p>
+<a href="https://api.whatsapp.com/send?phone=919171570073" class="btn btn-bg--cta--3">
+<span class="btn__text d-flex align-items-center">Get a qoute<i class="icon icon-arrow-right font-size--20"></i>
+</span>
+</a>
+</div>
+
+<div class="col-12 col-lg-6 ml-auto mb-8 mb-lg-0 reveal" data-sr-id="10" style="; visibility: visible;  -webkit-transform: translateY(20px) scale(1); opacity: 0.2;transform: translateY(20px) scale(1); opacity: 0.2;">
+<div class="overlap-image--v1 position-relative">
+<picture class="overlap-image__main">
+<img class="img-fluid rounded--08 box-shadow--5" src="./Aimfortech Solutions _ Gaming Development _ App Development_files/screen-2.1.png" alt="screen">
+</picture>
+<picture class="overlap-image__secondary pos-abs-bottom-right">
+<img class="img-fluid box-shadow--5 rounded-circle" src="./Aimfortech Solutions _ Gaming Development _ App Development_files/screen-2.2.png" alt="screen">
+</picture>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="pt-8 pb-6 pt-lg-8 pb-lg-7 bg-color--primary-light--1 upcoming-events--v1" id="events">
+<div class="container">
+<div class="row position-relative pt-lg-5">
+<div class="background-holder background--top--left opacity--30" style="background-image: url(&quot;img/layout/map-3.png&quot;); background-repeat: no-repeat;">
+<img src="./Aimfortech Solutions _ Gaming Development _ App Development_files/map-3.png" alt="map" class="background-image-holder" style="display: none;">
+</div>
+
+<!-- <div class="col-12 col-md-10 col-lg-6">
+<div class="section-title text-center text-md-left pb-7 reveal">
+<div class="section-title">
+<h2 class="h3-font mb-2">Upcoming Events</h2>
+<p>aimfortech is designed to pioneer the plasma architecture, the leading scalability solution. The network is a stakeholder and infinitely scalable blockchain for plasma.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row d-block reveal">
+
+<div class="carosuel-slider--v4">
+<div class="slide">
+<div class="card bg-white rounded--05 box-shadow--3">
+<div class="card-body mb-3">
+<a href="#" class="font-size--30 color--primary">Abu Dhabi</a>
+<span class="d-block mb-1 font-size--14">21-22 March 2019</span>
+<a href="#" class="btn btn--transparent text-color--700">
+<span class="font-size--14 d-flex align-items-center">
+See Details
+<i class="icon icon-arrow-right"></i>
+</span>
+ </a>
+</div>
+<picture>
+<img class="img-fluid" src="img/event-place-1.png" alt="place">
+</picture>
+</div>
+</div>
+
+<div class="slide">
+<div class="card bg-white rounded--05 box-shadow--3">
+<div class="card-body mb-3">
+<a href="#" class="font-size--30 color--primary">Riyadh</a>
+<span class="d-block mb-1 font-size--14">08-11 June 2019</span>
+<a href="#" class="btn btn--transparent text-color--700">
+<span class="font-size--14 d-flex align-items-center">
+See Details
+<i class="icon icon-arrow-right"></i>
+</span>
+</a>
+</div>
+<picture>
+<img class="img-fluid" src="img/event-place-2.png" alt="place">
+</picture>
+</div>
+</div>
+
+<div class="slide">
+<div class="card bg-white rounded--05 box-shadow--3">
+<div class="card-body mb-3">
+<a href="#" class="font-size--30 color--primary">Dubai</a>
+<span class="d-block mb-1 font-size--14">15-18 September 2019</span>
+<a href="#" class="btn btn--transparent text-color--700">
+<span class="font-size--14 d-flex align-items-center">
+See Details
+<i class="icon icon-arrow-right"></i>
+</span>
+</a>
+</div>
+<picture>
+<img class="img-fluid" src="img/event-place-3.png" alt="place">
+</picture>
+</div>
+</div>
+
+<div class="slide">
+<div class="card bg-white rounded--05 box-shadow--3">
+<div class="card-body mb-3">
+<a href="#" class="font-size--30 color--primary">Kuwait City</a>
+<span class="d-block mb-1 font-size--14">21-22 January 2020</span>
+<a href="#" class="btn btn--transparent text-color--700">
+<span class="font-size--14 d-flex align-items-center">
+See Details
+<i class="icon icon-arrow-right"></i>
+</span>
+</a>
+</div>
+<picture>
+<img class="img-fluid" src="img/event-place-4.png" alt="place">
+</picture>
+</div>
+</div>
+
+<div class="slide">
+<div class="card bg-white rounded--05 box-shadow--3">
+<div class="card-body mb-3">
+<a href="#" class="font-size--30 color--primary">Bagdhad</a>
+<span class="d-block mb-1 font-size--14">15-18 March 2020</span>
+<a href="#" class="btn btn--transparent text-color--700">
+<span class="font-size--14 d-flex align-items-center">
+See Details
+<i class="icon icon-arrow-right"></i>
+</span>
+</a>
+</div>
+<picture>
+<img class="img-fluid" src="img/event-place-5.png" alt="place">
+</picture>
+</div>
+</div>
+
+</div>
+</div> -->
+
+</div>
+</div></section>
+
+
+<!-- <section class="space--bottom bg-color--primary-light--1 ">
+<div class="container">
+<div class="row justify-content-center reveal">
+<div class="col-12 col-lg-5 mb-2">
+<div class="card card--double card-hover--shadow">
+<div class="card-body px-3 py-4">
+<a href="#" class="text-color--700 text-hover--primary font-w--500 h5-font mb-2">Facts Why Inkjet Printing Is Very Appealing Compared Ordinary Printing</a>
+<a href="#" class="btn btn-size--md btn--transparent color--primary">
+<span class="btn__text p-0"> Read the news <i class="icon icon-arrow-right"></i>
+</span>
+</a>
+</div>
+</div>
+</div>
+
+<div class="col-12 col-lg-5 mb-2">
+<div class="card card--double bg-white card-hover--shadow">
+<div class="card-body px-3 py-4">
+<a href="#" class="text-color--700 text-hover--primary font-w--500 h5-font mb-2">5 Reasons To Purchase Desktop Computers</a>
+<a href="#" class="btn btn-size--md btn--transparent color--primary">
+<span class="btn__text p-0"> Read the news <i class="icon icon-arrow-right"></i>
+</span>
+</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section> -->
+
+
+<section class="bg-color--primary hidden">
+<div class="svg-shape--top w-100">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 1920 706" style="enable-background:new 0 0 1920 706;" xml:space="preserve" class="svg w-100 replaced-svg">
+<style type="text/css">
+	.st0{opacity:5.000000e-02;fill-rule:evenodd;clip-rule:evenodd;enable-background:new    ;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#F5F9FF;}
+	.st2{opacity:5.400000e-02;fill-rule:evenodd;clip-rule:evenodd;fill:#264EEE;enable-background:new    ;}
+</style>
+<path class="st0" d="M1921.1,131v574.8c-277.5,0.4-525.4-44.3-736.5-134.2c-43.2-18.4-84.8-38.7-124.9-60.8  c-453.8-293.5-779-363.2-974.3-209.2c-29.9,23.6-56.7,52.3-80.5,86.4c-1.6,2.3-3.2,4.7-4.9,7.1V131H1921.1z"></path>
+<g>
+	<path class="st1" d="M1921.1,338.8c-29.1,25.1-61.4,45.8-97.1,62.2c0,0,0,0,0,0c-38,17.4-79.9,29.9-125.5,37.4   c-171.2,28.1-395.4-13.8-672.8-125.8c-442-178.5-755.5-182.2-940.3-11c-32.1,29.7-60.3,64.7-84.6,105c-0.3,0.4-0.5,0.8-0.8,1.3V1   h1921.1c-0.1,48.6-0.1,91.9-0.2,130C1920.8,268.5,1920.8,337.8,1921.1,338.8z"></path>
+</g>
+<path class="st2" d="M954.8,131c253.4,127.1,517,302.2,743.7,307.3c-171.2,28.1-395.4-13.8-672.8-125.8  c-442-178.5-755.5-182.2-940.3-11c-32.1,29.7-60.3,64.7-84.6,105c1.3-6.3,2.6-12.5,4.1-18.6C30.2,279.6,77.8,194,147.6,131  C235.5,51.6,358.7,8.3,516.8,1c0.3,0,0.7,0,1,0c12.5-0.5,25.2-0.5,37.9,0C680.5,6.2,816.1,61.5,954.8,131z"></path>
+</svg>
+</div>
+
+<div class="space--bottom position-relative">
+<div class="container">
+<div class="row justify-content-between align-items-center">
+<div class="col-12 col-md-7 col-lg-6 mb-3 mb-lg-0 mx-auto mx-md-0">
+<picture>
+<img class="img-fluid" src="./Aimfortech Solutions _ Gaming Development _ App Development_files/newsletter-illustrator-1.png" alt="newsletter-illustrator">
+</picture>
+</div>
+
+<div class="col-12 col-sm-8 col-lg-5 pl-lg-0 mx-auto">
+<div class="newsletter-form form--v2 border--around bg-white rounded--10 box-shadow--3 text-center px-3 pb-5">
+<div class="pt-4 pb-5">
+<h2 class="h3-font mb-1">Subscribe our newsletter</h2>
+<p class="text-color--400">By subscribing our newsletter you will know all the latest updates from us.</p>
+</div>
+
+<form action="http://aimfortech.com/#" class="form">
+<div class="input-group d-flex">
+<input type="email" class="form-control" placeholder="Enter your email" required="">
+<button class="btn btn-hover--splash btn-bg--cta--3" type="submit"><span class="btn__text"><i class="icon icon-arrow-right"></i></span></button>
+</div>
+</form>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<footer class="section--dark footer footer--v1 position-relative">
+<div class="container text-center">
+<div class="row">
+<div class="col-12 mb-2">
+<span class="mb-2">
+<img src="./Aimfortech Solutions _ Gaming Development _ App Development_files/brand-logo-white.png" alt="brand-logo">
+</span>
+<div class="widget widget-nav">
+<ul>
+<li><a href="http://aimfortech.com/#">Careers</a></li>
+<li><a href="http://aimfortech.com/#">Privacy Policy</a></li>
+<li><a href="http://aimfortech.com/#">Terms of Use</a></li>
+<li><a href="http://aimfortech.com/#">FAQ</a></li>
+<li><a href="http://aimfortech.com/#">News</a></li>
+</ul>
+</div>
+
+</div>
+
+</div>
+
+<div class="row">
+<div class="col-12">
+<div class="footer-border py-3">
+<ul class="icon-group icon--2x justify-content-center mb-0">
+<li class="p-2"><a href="http://aimfortech.com/#" class="color--white"><i class="fab fa-medium-m"></i></a></li>
+<li class="p-2"><a href="http://aimfortech.com/#" class="color--white"><i class="fab fa-facebook-f"></i></a></li>
+<li class="p-2"><a href="http://aimfortech.com/#" class="color--white"><i class="fab fa-twitter"></i></a></li>
+<li class="p-2"><a href="http://aimfortech.com/#" class="color--white"><i class="fab fa-linkedin-in"></i></a></li>
+<li class="p-2"><a href="http://aimfortech.com/#" class="color--white"><i class="fab fa-telegram-plane"></i></a></li>
+<li class="p-2"><a href="http://aimfortech.com/#" class="color--white"><i class="fab fa-github"></i></a></li>
+<li class="p-2"><a href="http://aimfortech.com/#" class="color--white"><i class="fab fa-youtube"></i></a></li>
+<li class="p-2"><a href="http://aimfortech.com/#" class="color--white"><i class="fab fa-pinterest"></i></a></li>
+<li class="p-2"><a href="http://aimfortech.com/#" class="color--white"><i class="fab fa-instagram"></i></a></li>
+<li class="p-2"><a href="http://aimfortech.com/#" class="color--white"><i class="fab fa-gitter"></i></a></li>
+<li class="p-2"><a href="http://aimfortech.com/#" class="color--white"><i class="fab fa-discord"></i></a></li>
+ </ul>
+</div>
+
+</div>
+
+</div>
+
+<div class="row">
+<div class="col-12">
+<div class="footer-bottom pt-5 pb-3 d-lg-flex justify-content-between">
+<p class="mb-1">© <a href="http://aimfortech.com/#">aimfortech</a> 2022 | All rights reserved</p>
+<a class="mb-2 mb-lg-1" href="http://aimfortech.com/#"><span class="__cf_email__" data-cfemail="d0b3bfbea4b1b3a490b5a8b1bda0bcb5feb3bfbd">info@aimfortech.com</span></a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</footer>
+</section>
+
+</main>
+<script data-cfasync="false" src="./Aimfortech Solutions _ Gaming Development _ App Development_files/email-decode.min.js.download"></script><script src="./Aimfortech Solutions _ Gaming Development _ App Development_files/plugins.min.js.download"></script>
+<script src="./Aimfortech Solutions _ Gaming Development _ App Development_files/app.js.download"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-125821150-2');
+</script>
+
+
+<div class="st-inspector"><iframe src="./Aimfortech Solutions _ Gaming Development _ App Development_files/saved_resource.html"></iframe></div><div style="z-index: 2147483646; position: fixed; top: 0px; left: 0px; width: 0px; height: 0px;"></div><div style="pointer-events: none; position: fixed; z-index: 2147483646; top: 184.354px; left: 76.6667px; width: 1110px; height: 133.182px;"><canvas width="1719" height="255" style="position: relative; left: -18px; top: -18px; width: 1146px; height: 170px"></canvas></div></body></html>
